@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip install:*)",
+      "Bash(python3:*)",
+      "Bash(where:*)",
+      "Bash(if exist \"C:\\\\Program Files\\\\Tesseract-OCR\\\\tesseract.exe\" echo \"FOUND in Program Files\" else echo \"NOT in Program Files\")"
+    ]
+  }
+}
